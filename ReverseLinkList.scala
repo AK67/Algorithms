@@ -26,7 +26,7 @@ object ReverseLinkedList{
 
   def reverseAndPrintRecursion(head:Option[Node], prvNode:Option[Node]):Option[Node]=
   {
-    var newHead = Option(new Node(0))
+    var newHead = Option(new Node(0))n`
     head match
     {
       case None => return prvNode
@@ -55,7 +55,7 @@ object ReverseLinkedList{
        prev = current
        current =nxt
      }
-
+n
     return prev
   }
 
